@@ -1,0 +1,284 @@
+/* Resetting default margin and padding, setting background image */
+body {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+
+/* Styling for Netflix logo */
+.img-logo {
+    height: 55px;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+
+/* Styling for upper section */
+.upper {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-bottom: 100px;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/a09bb938-2d90-42ae-986e-5a3e4abf9e77/504c814b-57c3-43af-ab7b-4def88fd3a89/LB-en-20231113-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+}
+
+/* Styling for bottom section */
+.bottom {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #757575;
+}
+
+/* Setting max-width, margin, and padding for bottom section */
+.bottom-width {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+/* Flex styling for bottom section */
+.bottom-flex {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 0 0 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+/* Styling for list items in the bottom section */
+.bottom-flex li {
+    list-style: none;
+}
+
+/* Styling for each item in the bottom section */
+.list-bottom {
+    width: 25%;
+    margin-top: 10px;
+}
+
+/* Styling for links in the bottom section */
+.link-bottom {
+    text-decoration: none;
+    color: #757575;
+    font-size: 0.8rem;
+}
+
+/* Hover effect for links in the bottom section */
+.link-bottom:hover {
+    text-decoration: underline;
+}
+
+/* Styling for the login form */
+.login {
+    margin: 0 auto;
+    width: 450px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    padding: 3%;
+}
+
+/* Styling for login form heading */
+.login h1 {
+    color: white;
+    padding-bottom: 10px;
+}
+
+/* Styling for input fields in the login form */
+.input-text {
+    margin-bottom: 20px;
+}
+
+.input-text input {
+    width: 100%;
+    height: 45px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    outline: transparent;
+    text-indent: 18px;
+}
+
+/* Styling for input placeholders in the login form */
+.input-text input::-webkit-input-placeholder {
+    font-size: 1rem;
+    color: #999;
+}
+
+.input-text input::-moz-placeholder {
+    font-size: 1rem;
+    color: #999;
+    text-indent: 40px;
+}
+
+/* Styling for the sign-in button */
+.signin-button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 13px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 1.05rem;
+    cursor: pointer;
+}
+
+/* Styling for the "Remember me" section */
+.remember-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 0.8rem;
+}
+
+/* Styling for text color */
+.color_text {
+    color: #b3b3b3;
+}
+
+/* Styling for link color */
+.color_link {
+    color: #737373;
+}
+
+/* Styling for the sign-up link */
+.signup-link {
+    color: white;
+    text-decoration: none;
+}
+
+/* Styling for warning messages */
+.warning-input {
+    display: none;
+    color: #e87c03;
+    margin-top: 6px;
+    font-size: 0.8rem;
+}
+
+/* Hover effect for the sign-up link */
+.signup-link:hover {
+    text-decoration: underline;
+}
+
+/* Styling for login with Facebook link */
+.log_face {
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 0.8rem;
+}
+
+/* Styling for the login with Facebook section */
+.login-face {
+    margin: 50px 0 15px 0;
+    vertical-align: middle;
+    color: #8c8c8c;
+}
+
+/* Styling for the "New to Netflix?" section */
+.new-members {
+    margin-bottom: 10px;
+    color: #8c8c8c;
+}
+
+/* Styling for help links */
+.help a {
+    text-decoration: none;
+}
+
+/* Hover effect for help links */
+.help a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for protection message */
+.protection {
+    font-size: 0.8rem;
+    color: #8c8c8c;
+}
+
+/* Styling for protection message links */
+.protection a {
+    text-decoration: none;
+}
+
+/* Hover effect for protection message links */
+.protection a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for telephone links */
+.tel-link {
+    text-decoration: none;
+    color: #757575;
+}
+
+/* Hover effect for telephone links */
+.tel-link:hover {
+    text-decoration: underline;
+}
+
+/* Styling for language selection dropdown */
+.select-language {
+    background: url("https://assets.nflxext.com/ffe/siteui/vlv3/a09bb938-2d90-42ae-986e-5a3e4abf9e77/504c814b-57c3-43af-ab7b-4def88fd3a89/LB-en-20231113-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+    background-size: 12px;
+    background-position-x: calc(100% - 7px);
+    background-position-y: calc(100% - 14px);
+    background-repeat: no-repeat;
+    background-color: #000;
+    color: #757575;
+    padding: 14px 20px 14px 14px;
+    margin: 30px 0 40px 0;
+    font-size: 0.9rem;
+    min-height: 40px;
+    border: 1px solid #333;
+}
+
+/* Styling for language options in the dropdown */
+.select-language option {
+    padding-left: 10px;
+}
+
+.dropdown__container_login {
+    border: 1px solid white;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.4);
+    width: fit-content;
+    padding: 4px;
+  }
+
+  
+/* Media queries for responsive design */
+@media screen and (max-width: 740px) {
+    .upper {
+        background: black;
+    }
+
+    .img-logo {
+        margin-left: 22px;
+    }
+
+    .login {
+        width: 100%;
+    }
+
+    .login-div {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 10%;
+    }
+
+    .bottom {
+        border-top: 1px solid #737373;
+    }
+
+    .list-bottom {
+        width: 33%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .list-bottom {
+        width: 50%;
+    }
+}

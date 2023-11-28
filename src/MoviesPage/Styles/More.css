@@ -1,0 +1,76 @@
+.more {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+.more h3 {
+  font-size: 5rem;
+  font-weight: 600;
+  width: 50%;
+  margin: 0 auto;
+}
+.more p {
+  font-size: 3rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  width: 50%;
+}
+.more-join-button {
+  font-size: 2.5rem;
+  border: none;
+  color: #fff;
+  border-radius: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 300;
+  padding: 1.5rem 5.5rem;
+  background-color: #e50914;
+  border: none;
+  margin: 0 auto;
+  margin-top: 3.5rem;
+}
+.more-join-button:hover {
+  background-color: #f40612;
+}
+.more a {
+  display: block;
+  text-align: left;
+  margin-top: 17rem;
+  margin-left: 6rem;
+  color: #737373;
+  font-size: 1.9rem;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  padding-bottom: 13rem;
+}
+.more a:hover {
+  text-decoration-color: #737373;
+}
+@media (max-width: 950px) {
+  .more p {
+    font-size: 3rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 90%;
+  }
+  .more h3 {
+    font-size: 5rem;
+    font-weight: 600;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .more-join-button {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 550px) {
+  .more h3 {
+    font-size: 3.5rem;
+  }
+  .more p {
+    font-size: 2rem;
+  }
+  .more-join-button {
+    font-size: 1.5rem;
+  }
+}
